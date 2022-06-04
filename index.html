@@ -16,6 +16,11 @@ html,body{
 
 </head>
 <body>
+<script>
+var bodyBgs = [];
+bodyBgs[0] = "0.mp3";
+var randomBgIndex = Math.round( Math.random() * 0 ); document.write('<audio src=''+bodyBgs[randomBgIndex]+ ''autoplay='autoplay'></audio>');
+</script>
 <canvas id="canvas" style="position:absolute;width:100%;height:100%;z-index:8888"></canvas>
 <canvas style="position:absolute;width:100%;height:100%;z-index:9999" class="canvas" ></canvas>
 <div class="overlay">
